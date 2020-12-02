@@ -1,4 +1,4 @@
-# RetroOS
-Sistema operativo escrito en Assembly
-## Este OS esta en fase de desarrollo, es decir:
-- *No esta completo*
+# RetroS
+Operating system written in Assembly
+## This OS is under development, that is:
+- *It is not complete*
