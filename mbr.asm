@@ -57,7 +57,7 @@ boot2:
 halt:
 	cli
 	hlt
-bootMessageOS: db "Iniciando RetroOS en 32 bits!", 0
+bootMessageOS: db "Iniciando en modo 32 bits!", 0
 
 times 510 - ($-$$) db 0
 dw 0xaa55
