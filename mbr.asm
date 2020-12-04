@@ -44,7 +44,7 @@ boot2:
 	mov fs, ax
 	mov gs, ax
 	mov ss, ax
-	mov esi, retro
+	mov esi, bootMessageOS
 	mov ebx, 0xB8000
 .loop:
 	lodsb
@@ -57,7 +57,7 @@ boot2:
 halt:
 	cli
 	hlt
-retro: db "Iniciando RetroOS en 32 bits!", 0
+bootMessageOS: db "Iniciando RetroOS en 32 bits!", 0
 
 times 510 - ($-$$) db 0
 dw 0xaa55
